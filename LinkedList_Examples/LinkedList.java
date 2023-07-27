@@ -79,5 +79,13 @@ public class LinkedList {
         }
           return -1;
      }
+      void addFirst( int val){
+        
+          Node nd = new Node(val);
+         nd.next = start;
+          start = nd;
+        
+
+      }
 
 }
