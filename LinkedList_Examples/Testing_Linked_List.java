@@ -17,6 +17,7 @@ public class Testing_Linked_List {
         ll.add(20);
         ll.add(30);
         ll.addFirst(5);
+        ll.update(5, 8);
         ll.printList();
     }
 }

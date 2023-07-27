@@ -87,5 +87,18 @@ public class LinkedList {
         
 
       }
+      void update(int old_val, int new_val){
+       Node t = start;
+       while(t!=null){
+        if(t.val == old_val){
+            t.val = new_val;
+        }
+        t = t.next;
+       }
+
+      }
+      void clear(){
+        start = null;
+      }
 
 }
