@@ -64,5 +64,20 @@ public class LinkedList {
         return count;
 
     }
+     int indexOf(int val_to_be_found){
+        int i =0;
+        Node t = start;
+        while(t != null){
+            if(t.val == val_to_be_found){
+                return i;
+            }
+            else{
+                t= t.next;
+                i++;
+            }
+         
+        }
+          return -1;
+     }
 
 }
