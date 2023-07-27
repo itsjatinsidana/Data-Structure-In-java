@@ -100,5 +100,6 @@ public class LinkedList {
       void clear(){
         start = null;
       }
+      
 
 }
