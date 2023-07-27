@@ -29,6 +29,27 @@ public class LinkedList {
    System.out.println("x");
 
    }
-
+    boolean isEmpty(){
+      if(start == null){
+        return true;
+      }
+      else {
+        return false;
+      }
+    }
+       void add(int val){
+        if(isEmpty()){
+            Node nd = new Node(val);
+            start = nd;
+        }
+        else{
+          Node  t = start;
+            while(t.next != null){
+                t = t.next;
+            }
+            Node nd = new Node(val);
+            t.next = nd;
+        }
+       }
     
 }
