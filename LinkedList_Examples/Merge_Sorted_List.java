@@ -31,6 +31,18 @@ public class Merge_Sorted_List {
         }
         
     }
+    public static Node reverseList(Node start){
+        Node start2 = null;
+        Node t = start;
+        while(t!=null){
+            Node nd = new Node(t.val);
+            nd.next = start2;
+            start2 = nd;
+            t = t.next;
+        }
+        return start2;
+    
+    }
     static Node mergeTwoLists(Node start1, Node start2){
        ArrayList <Integer> al = new ArrayList<>();
        Node t1 = start1;
@@ -43,7 +55,8 @@ public class Merge_Sorted_List {
         al.add(t2.val);
         t2 = t2.next;
        }
-       Collections.sort(al);
+      Collections.sort(al);
+      
       
        Node start3 = null;
         for(int p : al){
@@ -60,5 +73,8 @@ public class Merge_Sorted_List {
        }
         }
         return start3;
+        // reverse sorted list
+      //  return reverseList(start3); 
+       
     }
 }
