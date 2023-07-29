@@ -1,7 +1,6 @@
 package Binary_Search_Tree_Examples;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class InOrder {
     public static void main(String[] args) {
@@ -22,7 +21,10 @@ public class InOrder {
         bst.add(90);
         bst.add(100);
         bst.add(85);   
-      inOrdert(bst.root);
+     inOrdert(bst.root);
+        System.out.println();
+        System.out.println("-------post order------");
+        postORder(bst.root);
         System.out.println();
     }
       
@@ -40,6 +42,22 @@ public class InOrder {
         System.out.println(t.val);
            
            inOrdert(t.RIGHT);
+}
+}
+  static void postORder(TNode t)
+   {
+       if(t==null)
+       {
+           
+       }
+       else
+       {
+           postORder(t.LEFT);
+            postORder(t.RIGHT);
+           
+        System.out.println(t.val);
+           
+          
 }
 }
 }
