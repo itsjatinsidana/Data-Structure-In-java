@@ -1,6 +1,5 @@
 package Binary_Search_Tree_Examples;
 
-import org.w3c.dom.Node;
 
 public class BinarySearchTree{
     public static void main(String[] args) {
