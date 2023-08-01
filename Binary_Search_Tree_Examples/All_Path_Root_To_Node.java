@@ -1,6 +1,5 @@
 package Binary_Search_Tree_Examples;
 
-import javax.print.DocFlavor.STRING;
 
 public class All_Path_Root_To_Node {
     public static void main(String[] args) {
