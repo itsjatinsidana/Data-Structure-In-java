@@ -1,6 +1,6 @@
 package Playing_With_Numbers;
 
-import java.util.*;
+
 
 public class Check_Number_Isprime {
     public static void main(String[] args) {

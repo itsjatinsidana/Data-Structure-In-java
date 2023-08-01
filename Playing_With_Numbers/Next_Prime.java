@@ -1,24 +1,26 @@
 package Playing_With_Numbers;
 
-public class Print_All_Prime_Number {
+public class Next_Prime {
     public static void main(String[] args) {
-        int count = 0;
-       for (int i = 2; i <=100; i++) {
-         
-            if (isPrime(i) ) {
-                System.out.print(i + ", ");
-                count++;
-            }
-        }
-        System.out.println();
-        System.out.println(count);
-
+        int n =  17;
+        System.out.println(nextPrime(n));
     }
-  
+   static int nextPrime(int n){
+    int ans;
+    int i;
+    for(i = n+1 ; ; i++){
+         if(isPrime(i)){
+            ans = i;
+           break;
+         }
+         
+    }
+    return ans;
 
+   }
     static boolean isPrime(int n) {
         boolean flag = true;
-        if (n == 1 || n == 0 ) {
+        if (n == 1 || n == 0) {
             return false;
         } else {
 
@@ -30,5 +32,4 @@ public class Print_All_Prime_Number {
             return flag;
         }
     }
-    
-  }
+}
