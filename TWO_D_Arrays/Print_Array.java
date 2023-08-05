@@ -12,9 +12,10 @@ public class Print_Array {
         int n = a.length;
         for(i=0;i<m;i++){
             for(j=0;j<n;j++){
-                   System.out.println(a[i][j] + " ");
+                   System.out.print(a[i][j] + " " );
 
             }
+            System.out.println("");
          
         }
         
