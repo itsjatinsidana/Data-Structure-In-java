@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Panagram {
     public static void main(String[] args) {
-        String s = "the quick brown fox jumps over a lazy dog";
+        String s = "two driven jocks help fax my big quiz.";
         System.out.println(isPanagram(s));
     }
     static boolean isPanagram(String s){
