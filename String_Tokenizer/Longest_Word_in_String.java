@@ -9,7 +9,7 @@ public class Longest_Word_in_String {
         System.out.println(longest(s));
         
     }
-    static int longest(String s){
+    static String longest(String s){
         StringTokenizer st = new StringTokenizer(s);
         String longest ="";
         int count = st.countTokens();
@@ -19,6 +19,7 @@ public class Longest_Word_in_String {
                 longest = p;
             }
         }
-        return longest.length();
+    System.out.println("size is " + longest.length());
+        return longest;
     }
 }
