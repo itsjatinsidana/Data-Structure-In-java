@@ -1,6 +1,6 @@
 package String;
 
-import java.util.HashMap;
+
 
 public class MirrorString {
     public static void main(String[] args) {
