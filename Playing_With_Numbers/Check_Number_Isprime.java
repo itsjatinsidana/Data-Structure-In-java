@@ -4,7 +4,7 @@ package Playing_With_Numbers;
 
 public class Check_Number_Isprime {
     public static void main(String[] args) {
-         int n = 17;
+         int n = 16;
         System.out.println( n + " is " + isPrime(n));
 
     }
