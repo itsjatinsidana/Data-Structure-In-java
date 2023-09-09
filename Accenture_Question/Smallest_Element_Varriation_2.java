@@ -1,5 +1,6 @@
 package Accenture_Question;
 
+import java.util.*;
 import java.util.Arrays;
 
 public class Smallest_Element_Varriation_2 {
@@ -11,6 +12,8 @@ public class Smallest_Element_Varriation_2 {
     }
     static void smallestElement(int a[]){
         Arrays.sort(a);
-        System.out.println(a[0]);
+       System.out.println(a[0]);
+       
+       
     }
 }
