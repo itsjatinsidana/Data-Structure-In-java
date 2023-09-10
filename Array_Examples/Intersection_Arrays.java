@@ -32,8 +32,7 @@ public class Intersection_Arrays {
         al.retainAll(al2);
         System.out.println(al);
         
-       LinkedHashSet<Integer> hs = new LinkedHashSet<>();
-       hs.addAll(al);
+       
        
         int c[] = new int[al.size()];
         int j = 0;
