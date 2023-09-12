@@ -10,7 +10,7 @@ public class Reverse {
     static void reverse(String s){
      StringBuffer sb = new StringBuffer(s);
         sb.reverse();
-       System.out.println(sb);
+       System.out.println(sb.toString());
 
 
         

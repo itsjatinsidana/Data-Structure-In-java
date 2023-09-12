@@ -7,7 +7,7 @@ public class Substring_K_Size {
         String s = "hello";
     
         int i;
-        ArrayList<String> al = new ArrayList<>();
+       
         for(i=1;i<s.length()-1;i++){
             allSubstring(s, i);
         }
