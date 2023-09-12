@@ -7,6 +7,7 @@ import java.util.HashSet;
 public class Find_Comon_Number {
     public static void main(String[] args) {
         int a[]= {2,1,1,2,3,4,5,5,7};
+        //int a[]=  {4,3,2,7,8,2,3,1};
         
         getCommon(a);
     }
@@ -22,7 +23,7 @@ public class Find_Comon_Number {
    
        
        }
-       System.out.println(uniqueNumbers);
+       System.out.println(commonNumbers);
        
       
       
