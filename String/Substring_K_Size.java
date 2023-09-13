@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class Substring_K_Size {
     public static void main(String[] args) {
         String s = "hello";
-    
+
         int i;
-       
-        for(i=1;i<s.length()-1;i++){
+
+        for (i = 1; i < s.length() - 1; i++) {
             allSubstring(s, i);
         }
     }
@@ -20,7 +20,7 @@ public class Substring_K_Size {
             ArrayList<String> al = new ArrayList<>();
 
             al.add(sub);
-           System.out.println(al);
+            System.out.println(al);
 
         }
 
