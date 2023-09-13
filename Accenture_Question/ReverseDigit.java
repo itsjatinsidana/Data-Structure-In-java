@@ -2,7 +2,7 @@ package Accenture_Question;
 
 public class ReverseDigit {
     public static void main(String[] args) {
-        int a = 12345;
+        int a = 54321;
         System.out.println(reverse(a));
         
     }
