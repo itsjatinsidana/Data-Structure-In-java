@@ -32,9 +32,12 @@ public class sortcentre {
         for(i=1; i<=M-2; i++)
         {
             for(j=1; j<=N-2; j++)
+
             {
+                
                 b[k] = a[i][j];
                 k++;
+                
             }
         }
         
