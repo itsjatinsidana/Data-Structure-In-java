@@ -7,9 +7,8 @@ import java.util.Scanner;
 public class Swap_two_numbers {
     public static void main(String[] args) {
 
-        System.out.println("First number is ");
         int a[] = { 10 };
-        System.out.println("second number is ");
+
         int b[] = { 20 };
         int c[] = swap(a, b);
         System.out.println(Arrays.toString(c));
@@ -38,6 +37,7 @@ public class Swap_two_numbers {
             arr[j] = arr[n - 1 - j];
             arr[n - 1 - j] = t;
         }
+
     }
 
 }
