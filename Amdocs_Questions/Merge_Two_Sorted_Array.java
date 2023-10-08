@@ -1,34 +1,25 @@
 package Amdocs_Questions;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.StringTokenizer;
 
 public class Merge_Two_Sorted_Array {
     public static void main(String[] args) {
-        int [] a = {1,6,9};
-        int []b = {2,3,5};
-        int [] c = merge(a,b);
-        System.out.println(Arrays.toString(c));
-   }
-   static int[] merge(int[]a,int[]b){
-    ArrayList<Integer> al = new ArrayList<>();
-        for(int i = 0;i<a.length;i++){
-            al.add(a[i]);
-        }
-        for(int i =0;i<b.length;i++){
-            al.add(b[i]);
-        }
-     Collections.sort(al);
+        String s = "hello world";
+        System.out.println(reverse(s));
+    }
 
-        int j=0;
-        int[] c= new int[al.size()];
-        for(int p :al){
-            c[j] = p;
-            j++;
-
+    static String reverse(String s) {
+        String rev = "";
+        StringTokenizer st = new StringTokenizer(s);
+        int n = st.countTokens();
+        for (int i = 0; i <= n; i++) {
+            String ans = st.nextToken();
+            StringBuffer sb = new StringBuffer(ans);
+            sb.reverse();
+           
+            rev = sb + rev;
         }
-        return c;
+        return rev;
 
     }
 }

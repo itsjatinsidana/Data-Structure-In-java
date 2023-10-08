@@ -1,10 +1,10 @@
-package Accenture_Question;
+package Amdocs_Questions;
 
 import java.util.StringTokenizer;
 
-public class rev_char {
+public class Reverse_Char_String {
     public static void main(String[] args) {
-        String input = "Hello world";
+          String input = "what is your name";
         System.out.print(reverse(input));
     }
 
@@ -23,5 +23,4 @@ public class rev_char {
 
         return output;
     }
-
 }
