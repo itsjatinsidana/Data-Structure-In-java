@@ -25,13 +25,13 @@ public class Print_prime_which_are_sum {
 
         int[] c = new int[al.size()];
         int j = 0;
-        int sum = 0;
+        
         for (int p : al) {
             c[j] = p;
             j++;
         }
         for (int i = 0; i < c.length; i++) {
-            for (j = i+1; j < c.length; j++) {
+            for (j = 0; j < c.length; j++) {
                 if (c[i] + c[j] == n) {
                     al2.add(c[i]);
                     al2.add(c[j]);
