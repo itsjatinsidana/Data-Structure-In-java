@@ -17,7 +17,7 @@ public class Swap_First_With_Last {
         temp = a[0];
         a[0] = a[l-1];
         a[l-1] = temp;
-        System.out.println(Arrays.toString(a));
+      //  System.out.println(Arrays.toString(a));
        
         String ans = "";
         for(int i = 0;i<a.length;i++){
