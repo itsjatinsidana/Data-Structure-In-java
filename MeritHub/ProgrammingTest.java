@@ -46,7 +46,7 @@ public class ProgrammingTest {
 
         System.out.println(ans);
         int sum = sumOfLandIndividual(ans);
-        System.out.println(sum);
+        System.out.println("land owened by Anjali Devi " + sum);
     
         System.out.println("------Third query answer-------");
         String nam2[] = nameForThirdQuery.split(" ");
