@@ -1,6 +1,10 @@
 package MeritHub;
 
-
+// NAME = JATIN SIDANA
+// UNIVERSITY = GURU NANAK DEV UNIVERSITY
+// CLASS = MCA
+// PHONE NO. = 9876271597
+//GMAIL = JATINSADANA1998@GMAIL.COM
 
 public class ProgrammingTest {
     public static void main(String[] args) {
