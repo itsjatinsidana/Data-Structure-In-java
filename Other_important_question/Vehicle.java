@@ -39,7 +39,12 @@ public class Vehicle {
         a[2] = third;
         
         System.out.println("Max revenue is:"+v3.maxRevenue(a));
+        System.out.println("Max revenue is:"+v3.maxRevenue(a));
+
     }
 }
+
+
+
 
 
