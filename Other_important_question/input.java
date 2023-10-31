@@ -8,10 +8,12 @@ public class input {
         int num = scan.nextInt();
         int num2 = scan.nextInt();
         sum(num, num2);
-
+        scan.close();
     }
+
     static void sum(int num,int num2){
         int total = num + num2;
         System.out.println(total);
     }
+
 }
