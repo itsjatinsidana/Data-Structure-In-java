@@ -1,6 +1,7 @@
 
 package Other_important_question;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 
 public class removeduplicate {
@@ -12,9 +13,10 @@ public class removeduplicate {
 
     static void removeduplicate(int a[]) {
         HashSet<Integer> hs = new HashSet<>();
+        ArrayList<Integer> al = new ArrayList<>();
         for (int i = 0; i < a.length; i++) {
             hs.add(a[i]);
         }
-        System.out.println(hs);
+    System.out.println(hs);
     }
 }
